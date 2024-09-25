@@ -1,4 +1,3 @@
-import './style.css'
 import perfil from '../../imgs/perfil.svg'
 import sacola from '../../imgs/sacola.svg'
 import { Icone, Icones } from './style'

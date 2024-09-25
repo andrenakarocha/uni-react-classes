@@ -1,4 +1,3 @@
-import './style.css'
 import Logo from '../Logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
