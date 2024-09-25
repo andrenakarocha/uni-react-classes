@@ -1,13 +1,14 @@
-import './style.css'
+import { Opcao, Opcoes } from './style.js'
+
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
 
 function OpcoesHeader () {
     return (
-        <ul className='opcoes'>
+        <Opcoes>
             {textoOpcoes.map((texto) => (
-                <li className='opcao'><p>{texto}</p></li>
+                <Opcao><p>{texto}</p></Opcao>
             ))}
-        </ul>
+        </Opcoes>
     )
 }
 

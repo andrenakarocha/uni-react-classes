@@ -1,12 +1,13 @@
-import './style.css'
 import logo from '../../imgs/logo.svg'
+import { LogoContainer, LogoImage } from './style.js'
+
 
 function Logo() {
     return(
-        <div className='logo'>
-            <img src={logo} alt='logo' className='logo-img'></img>
+        <LogoContainer>
+            <LogoImage src={logo} alt='logo'/>
             <p><strong>Store</strong>Books</p>
-        </div>
+        </LogoContainer>
     )
 }
 

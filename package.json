@@ -2,6 +2,10 @@
   "name": "react-classes",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["aulas/*"]
+  "workspaces": [
+    "aulas/*"
+  ],
+  "dependencies": {
+    "styled-components": "^6.1.13"
+  }
 }
-

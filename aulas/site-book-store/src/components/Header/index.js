@@ -2,14 +2,16 @@ import './style.css'
 import Logo from '../Logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
+import { HeaderContainer } from './style.js'
+
 
 function Header () {
     return (
-        <header className='App-header'>
+        <HeaderContainer>
             <Logo/>
             <OpcoesHeader/>
             <IconesHeader/>
-        </header>
+        </HeaderContainer>
     )
 }
 

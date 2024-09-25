@@ -1,16 +1,17 @@
 import './style.css'
 import perfil from '../../imgs/perfil.svg'
 import sacola from '../../imgs/sacola.svg'
+import { Icone, Icones } from './style'
 
 const icones = [perfil, sacola]
 
 function IconesHeader () {
     return (
-        <ul className='icones'>
+        <Icones>
             {icones.map((icone) => (
-                <li className='icone'><img src={icone} alt='icone'></img></li>
+                <Icone><img src={icone} alt='icone'></img></Icone>
             ))}
-        </ul>
+        </Icones>
     )
 }
 

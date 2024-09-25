@@ -1,8 +1,6 @@
-.opcoes {
-    display: flex;
-}
+import styled from "styled-components";
 
-.opcao {
+const Opcao = styled.li`
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -12,4 +10,10 @@
     padding: 0 5px;
     cursor: pointer;
     min-width: 120px;
-}
+`
+
+const Opcoes = styled.ul`
+    display: flex;
+`
+
+export {Opcao, Opcoes}
