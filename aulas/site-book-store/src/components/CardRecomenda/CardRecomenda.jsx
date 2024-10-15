@@ -17,4 +17,4 @@ function CardRecomenda({titulo, subtitulo, descricao, img}) {
     )
 }
 
-export default CardRecomenda
+export default CardRecomenda;
