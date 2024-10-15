@@ -1,8 +1,8 @@
-import Logo from '../Logo'
-import OpcoesHeader from '../OpcoesHeader'
-import IconesHeader from '../IconesHeader'
+import Logo from '../Logo/Logo.jsx'
+import OpcoesHeader from '../OpcoesHeader/OpcoesHeader.jsx'
+import IconesHeader from '../IconesHeader/index.js'
 import { useNavigate } from 'react-router-dom'
-import { HeaderContainer } from './style.js'
+import { HeaderContainer } from './Header.styles.jsx'
 
 
 function Header () {

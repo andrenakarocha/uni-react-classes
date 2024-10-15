@@ -1,4 +1,4 @@
-import Header from '../components/Header/index'
+import Header from '../components/Header/Header'
 import styled from 'styled-components';
 import UltimosLancamentos from '../components/UltimosLancamentos/UltimosLancamentos'
 
