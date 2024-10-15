@@ -1,6 +1,6 @@
 import perfil from '../../imgs/perfil.svg'
 import sacola from '../../imgs/sacola.svg'
-import { Icone, Icones } from './style'
+import { Icone, Icones } from './IconesHeader.styles'
 
 const icones = [perfil, sacola]
 

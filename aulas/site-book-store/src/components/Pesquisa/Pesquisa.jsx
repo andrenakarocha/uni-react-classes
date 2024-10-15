@@ -1,4 +1,4 @@
-import Input from '../Input'
+import Input from '../Input/Input.styles'
 import { PesquisaContainer, Titulo, Subtitulo, ResultadosContainer, Resultado } from './Pesquisa.styles'
 import { useState } from 'react'
 import { livros } from './dadosPesquisa'
