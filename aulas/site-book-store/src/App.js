@@ -6,16 +6,16 @@ import MinhaEstante from './pages/minhaEstante'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/categorias' element={<Categorias/>} />
-        <Route path='/favoritos' element={<Favoritos/>} />
-        <Route path='/minhaestante' element={<MinhaEstante/>} />
-      </Routes>
-    </Router>
-  )
+      <Router>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/categorias" element={<Categorias />} />
+              <Route path="/favoritos" element={<Favoritos />} />
+              <Route path="/minhaestante" element={<MinhaEstante />} />
+          </Routes>
+      </Router>
+  );
 }
 
-export default App;
+export default App
